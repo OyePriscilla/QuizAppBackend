@@ -1814,5 +1814,1826 @@
         "userAnswer": "Miriam"
       }
     ]
+  },
+  {
+    "username": "Oye",
+    "score": 0,
+    "date": "2025-04-17T14:54:44.953Z",
+    "quizState": [
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God give Moses on the mountain?",
+        "options": [
+          "Ten Commandments",
+          "A new name",
+          "A crown",
+          "A sword"
+        ],
+        "answer": "Ten Commandments",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was the mother of Moses?",
+        "options": [
+          "Jochebed",
+          "Leah",
+          "Sarah",
+          "Hannah"
+        ],
+        "answer": "Jochebed",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "What sea did God part for the Israelites?",
+        "options": [
+          "Red Sea",
+          "Dead Sea",
+          "Jordan River",
+          "Great Sea"
+        ],
+        "answer": "Red Sea",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "How old was Moses when he died?",
+        "options": [
+          "80",
+          "110",
+          "100",
+          "120"
+        ],
+        "answer": "120",
+        "userAnswer": ""
+      },
+      {
+        "question": "How many plagues did God send on Egypt?",
+        "options": [
+          "10",
+          "12",
+          "7",
+          "5"
+        ],
+        "answer": "10",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses die?",
+        "options": [
+          "Mount Carmel",
+          "Mount Nebo",
+          "Mount Sinai",
+          "Mount Horeb"
+        ],
+        "answer": "Mount Nebo",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ father-in-law?",
+        "options": [
+          "Reuben",
+          "Jethro",
+          "Nahor",
+          "Gad"
+        ],
+        "answer": "Jethro",
+        "userAnswer": ""
+      },
+      {
+        "question": "How long did Jochebed hide baby Moses?",
+        "options": [
+          "1 year",
+          "1 month",
+          "6 months",
+          "3 months"
+        ],
+        "answer": "3 months",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses go after leaving Egypt?",
+        "options": [
+          "Sinai",
+          "Canaan",
+          "Midian",
+          "Moab"
+        ],
+        "answer": "Midian",
+        "userAnswer": ""
+      },
+      {
+        "question": "Why did Moses flee Egypt?",
+        "options": [
+          "He was sent away",
+          "He was afraid of Pharaoh",
+          "He killed an Egyptian",
+          "He got lost"
+        ],
+        "answer": "He killed an Egyptian",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ first son?",
+        "options": [
+          "Benjamin",
+          "Aaron",
+          "Gershom",
+          "Isaac"
+        ],
+        "answer": "Gershom",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T14:55:06.960Z",
+    "quizState": [
+      {
+        "question": "Who was the mother of Moses?",
+        "options": [
+          "Jochebed",
+          "Leah",
+          "Sarah",
+          "Hannah"
+        ],
+        "answer": "Jochebed",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses go after leaving Egypt?",
+        "options": [
+          "Sinai",
+          "Canaan",
+          "Midian",
+          "Moab"
+        ],
+        "answer": "Midian",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses grow up?",
+        "options": [
+          "In Canaan",
+          "In a cave",
+          "With shepherds",
+          "In Pharaoh’s palace"
+        ],
+        "answer": "In Pharaoh’s palace",
+        "userAnswer": ""
+      },
+      {
+        "question": "Why did Moses flee Egypt?",
+        "options": [
+          "He was sent away",
+          "He was afraid of Pharaoh",
+          "He killed an Egyptian",
+          "He got lost"
+        ],
+        "answer": "He killed an Egyptian",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses and Aaron tell Pharaoh?",
+        "options": [
+          "Let my people go!",
+          "Set us free!",
+          "We come in peace!",
+          "Stop the slavery!"
+        ],
+        "answer": "Let my people go!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who led the Israelites after Moses?",
+        "options": [
+          "Aaron",
+          "Caleb",
+          "Joshua",
+          "Eliezer"
+        ],
+        "answer": "Joshua",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who spoke to Moses face to face?",
+        "options": [
+          "God",
+          "Aaron",
+          "A prophet",
+          "An angel"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What disease appeared and healed on Moses’ hand?",
+        "options": [
+          "Spots",
+          "Leprosy",
+          "Blisters",
+          "Boils"
+        ],
+        "answer": "Leprosy",
+        "userAnswer": ""
+      },
+      {
+        "question": "What excuse did Moses give for not going to Egypt?",
+        "options": [
+          "I’m afraid",
+          "I am too old",
+          "I don’t believe",
+          "I can’t speak well"
+        ],
+        "answer": "I can’t speak well",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ first son?",
+        "options": [
+          "Benjamin",
+          "Aaron",
+          "Gershom",
+          "Isaac"
+        ],
+        "answer": "Gershom",
+        "userAnswer": ""
+      },
+      {
+        "question": "What sea did God part for the Israelites?",
+        "options": [
+          "Red Sea",
+          "Dead Sea",
+          "Jordan River",
+          "Great Sea"
+        ],
+        "answer": "Red Sea",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did the Israelites build to worship wrongly?",
+        "options": [
+          "A silver dove",
+          "A stone idol",
+          "A bronze serpent",
+          "A golden calf"
+        ],
+        "answer": "A golden calf",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ father-in-law?",
+        "options": [
+          "Reuben",
+          "Jethro",
+          "Nahor",
+          "Gad"
+        ],
+        "answer": "Jethro",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T15:38:22.580Z",
+    "quizState": [
+      {
+        "question": "Who was Moses’ brother?",
+        "options": [
+          "Joshua",
+          "Caleb",
+          "Levi",
+          "Aaron"
+        ],
+        "answer": "Aaron",
+        "userAnswer": ""
+      },
+      {
+        "question": "How many plagues did God send on Egypt?",
+        "options": [
+          "10",
+          "12",
+          "7",
+          "5"
+        ],
+        "answer": "10",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses' water turn into?",
+        "options": [
+          "Honey",
+          "Blood",
+          "Oil",
+          "Milk"
+        ],
+        "answer": "Blood",
+        "userAnswer": ""
+      },
+      {
+        "question": "What animal’s blood saved the Israelites?",
+        "options": [
+          "Lamb",
+          "Bird",
+          "Goat",
+          "Cow"
+        ],
+        "answer": "Lamb",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses strike to get water?",
+        "options": [
+          "A mountain",
+          "A wall",
+          "A tree",
+          "A rock"
+        ],
+        "answer": "A rock",
+        "userAnswer": ""
+      },
+      {
+        "question": "What disease appeared and healed on Moses’ hand?",
+        "options": [
+          "Spots",
+          "Leprosy",
+          "Blisters",
+          "Boils"
+        ],
+        "answer": "Leprosy",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God turn Moses' staff into?",
+        "options": [
+          "A scroll",
+          "A snake",
+          "A sword",
+          "A torch"
+        ],
+        "answer": "A snake",
+        "userAnswer": ""
+      },
+      {
+        "question": "What excuse did Moses give for not going to Egypt?",
+        "options": [
+          "I’m afraid",
+          "I am too old",
+          "I don’t believe",
+          "I can’t speak well"
+        ],
+        "answer": "I can’t speak well",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses die?",
+        "options": [
+          "Mount Carmel",
+          "Mount Nebo",
+          "Mount Sinai",
+          "Mount Horeb"
+        ],
+        "answer": "Mount Nebo",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by day?",
+        "options": [
+          "Sunlight",
+          "Torch",
+          "Pillar of cloud",
+          "Wind"
+        ],
+        "answer": "Pillar of cloud",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did the Israelites build to worship wrongly?",
+        "options": [
+          "A silver dove",
+          "A stone idol",
+          "A bronze serpent",
+          "A golden calf"
+        ],
+        "answer": "A golden calf",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses and Aaron tell Pharaoh?",
+        "options": [
+          "Let my people go!",
+          "Set us free!",
+          "We come in peace!",
+          "Stop the slavery!"
+        ],
+        "answer": "Let my people go!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who led the Israelites after Moses?",
+        "options": [
+          "Aaron",
+          "Caleb",
+          "Joshua",
+          "Eliezer"
+        ],
+        "answer": "Joshua",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses see on Mount Horeb?",
+        "options": [
+          "A giant stone",
+          "A golden calf",
+          "A burning bush",
+          "An angel"
+        ],
+        "answer": "A burning bush",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ father-in-law?",
+        "options": [
+          "Reuben",
+          "Jethro",
+          "Nahor",
+          "Gad"
+        ],
+        "answer": "Jethro",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": "ff7c8b24-e216-4265-8b83-66efc1f14b0f",
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T16:22:19.180Z",
+    "quizState": [
+      {
+        "question": "What was Moses’ father’s name?",
+        "options": [
+          "Nadab",
+          "Amram",
+          "Levi",
+          "Jacob"
+        ],
+        "answer": "Amram",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ father-in-law?",
+        "options": [
+          "Reuben",
+          "Jethro",
+          "Nahor",
+          "Gad"
+        ],
+        "answer": "Jethro",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by day?",
+        "options": [
+          "Sunlight",
+          "Torch",
+          "Pillar of cloud",
+          "Wind"
+        ],
+        "answer": "Pillar of cloud",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who spoke to Moses face to face?",
+        "options": [
+          "God",
+          "Aaron",
+          "A prophet",
+          "An angel"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did the Israelites build to worship wrongly?",
+        "options": [
+          "A silver dove",
+          "A stone idol",
+          "A bronze serpent",
+          "A golden calf"
+        ],
+        "answer": "A golden calf",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses' water turn into?",
+        "options": [
+          "Honey",
+          "Blood",
+          "Oil",
+          "Milk"
+        ],
+        "answer": "Blood",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      },
+      {
+        "question": "What does the name Moses mean?",
+        "options": [
+          "Saved one",
+          "Gift of God",
+          "Drawn out of water",
+          "Leader"
+        ],
+        "answer": "Drawn out of water",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses die?",
+        "options": [
+          "Mount Carmel",
+          "Mount Nebo",
+          "Mount Sinai",
+          "Mount Horeb"
+        ],
+        "answer": "Mount Nebo",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God turn Moses' staff into?",
+        "options": [
+          "A scroll",
+          "A snake",
+          "A sword",
+          "A torch"
+        ],
+        "answer": "A snake",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was the mother of Moses?",
+        "options": [
+          "Jochebed",
+          "Leah",
+          "Sarah",
+          "Hannah"
+        ],
+        "answer": "Jochebed",
+        "userAnswer": ""
+      },
+      {
+        "question": "What sea did God part for the Israelites?",
+        "options": [
+          "Red Sea",
+          "Dead Sea",
+          "Jordan River",
+          "Great Sea"
+        ],
+        "answer": "Red Sea",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": "4ad8135c-91e1-45e6-9b19-a3addca5a84a",
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T16:25:06.415Z",
+    "quizState": [
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "How long did Jochebed hide baby Moses?",
+        "options": [
+          "1 year",
+          "1 month",
+          "6 months",
+          "3 months"
+        ],
+        "answer": "3 months",
+        "userAnswer": ""
+      },
+      {
+        "question": "What river was baby Moses placed into?",
+        "options": [
+          "Euphrates",
+          "Jordan",
+          "Tigris",
+          "Nile"
+        ],
+        "answer": "Nile",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God give Moses on the mountain?",
+        "options": [
+          "Ten Commandments",
+          "A new name",
+          "A crown",
+          "A sword"
+        ],
+        "answer": "Ten Commandments",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ first son?",
+        "options": [
+          "Benjamin",
+          "Aaron",
+          "Gershom",
+          "Isaac"
+        ],
+        "answer": "Gershom",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses see on Mount Horeb?",
+        "options": [
+          "A giant stone",
+          "A golden calf",
+          "A burning bush",
+          "An angel"
+        ],
+        "answer": "A burning bush",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did the Israelites build to worship wrongly?",
+        "options": [
+          "A silver dove",
+          "A stone idol",
+          "A bronze serpent",
+          "A golden calf"
+        ],
+        "answer": "A golden calf",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did Aaron help Moses?",
+        "options": [
+          "He wrote scrolls",
+          "He guided the sheep",
+          "He cooked food",
+          "He spoke for him"
+        ],
+        "answer": "He spoke for him",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses go after leaving Egypt?",
+        "options": [
+          "Sinai",
+          "Canaan",
+          "Midian",
+          "Moab"
+        ],
+        "answer": "Midian",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses and Aaron tell Pharaoh?",
+        "options": [
+          "Let my people go!",
+          "Set us free!",
+          "We come in peace!",
+          "Stop the slavery!"
+        ],
+        "answer": "Let my people go!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What excuse did Moses give for not going to Egypt?",
+        "options": [
+          "I’m afraid",
+          "I am too old",
+          "I don’t believe",
+          "I can’t speak well"
+        ],
+        "answer": "I can’t speak well",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses die?",
+        "options": [
+          "Mount Carmel",
+          "Mount Nebo",
+          "Mount Sinai",
+          "Mount Horeb"
+        ],
+        "answer": "Mount Nebo",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was the mother of Moses?",
+        "options": [
+          "Jochebed",
+          "Leah",
+          "Sarah",
+          "Hannah"
+        ],
+        "answer": "Jochebed",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "What does the name Moses mean?",
+        "options": [
+          "Saved one",
+          "Gift of God",
+          "Drawn out of water",
+          "Leader"
+        ],
+        "answer": "Drawn out of water",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": "0786cdbe-f2e3-46e4-92ba-2355d72c91af",
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T16:33:27.783Z",
+    "quizState": [
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "Why did Moses flee Egypt?",
+        "options": [
+          "He was sent away",
+          "He was afraid of Pharaoh",
+          "He killed an Egyptian",
+          "He got lost"
+        ],
+        "answer": "He killed an Egyptian",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses see on Mount Horeb?",
+        "options": [
+          "A giant stone",
+          "A golden calf",
+          "A burning bush",
+          "An angel"
+        ],
+        "answer": "A burning bush",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did the Israelites build to worship wrongly?",
+        "options": [
+          "A silver dove",
+          "A stone idol",
+          "A bronze serpent",
+          "A golden calf"
+        ],
+        "answer": "A golden calf",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did Aaron help Moses?",
+        "options": [
+          "He wrote scrolls",
+          "He guided the sheep",
+          "He cooked food",
+          "He spoke for him"
+        ],
+        "answer": "He spoke for him",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who led the Israelites after Moses?",
+        "options": [
+          "Aaron",
+          "Caleb",
+          "Joshua",
+          "Eliezer"
+        ],
+        "answer": "Joshua",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ father-in-law?",
+        "options": [
+          "Reuben",
+          "Jethro",
+          "Nahor",
+          "Gad"
+        ],
+        "answer": "Jethro",
+        "userAnswer": ""
+      },
+      {
+        "question": "What river was baby Moses placed into?",
+        "options": [
+          "Euphrates",
+          "Jordan",
+          "Tigris",
+          "Nile"
+        ],
+        "answer": "Nile",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses strike to get water?",
+        "options": [
+          "A mountain",
+          "A wall",
+          "A tree",
+          "A rock"
+        ],
+        "answer": "A rock",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ first son?",
+        "options": [
+          "Benjamin",
+          "Aaron",
+          "Gershom",
+          "Isaac"
+        ],
+        "answer": "Gershom",
+        "userAnswer": ""
+      },
+      {
+        "question": "How long did Jochebed hide baby Moses?",
+        "options": [
+          "1 year",
+          "1 month",
+          "6 months",
+          "3 months"
+        ],
+        "answer": "3 months",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": "39e1b0d9-98c0-49e9-a965-9caa975ca223",
+    "username": "Oye2",
+    "score": 0,
+    "date": "2025-04-17T16:37:22.257Z",
+    "quizState": [
+      {
+        "question": "Who buried Moses?",
+        "options": [
+          "The elders",
+          "Joshua",
+          "God",
+          "Aaron"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "How long did Jochebed hide baby Moses?",
+        "options": [
+          "1 year",
+          "1 month",
+          "6 months",
+          "3 months"
+        ],
+        "answer": "3 months",
+        "userAnswer": ""
+      },
+      {
+        "question": "What river was baby Moses placed into?",
+        "options": [
+          "Euphrates",
+          "Jordan",
+          "Tigris",
+          "Nile"
+        ],
+        "answer": "Nile",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who did Moses marry?",
+        "options": [
+          "Rebecca",
+          "Zipporah",
+          "Ruth",
+          "Leah"
+        ],
+        "answer": "Zipporah",
+        "userAnswer": ""
+      },
+      {
+        "question": "Where did Moses grow up?",
+        "options": [
+          "In Canaan",
+          "In a cave",
+          "With shepherds",
+          "In Pharaoh’s palace"
+        ],
+        "answer": "In Pharaoh’s palace",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "What disease appeared and healed on Moses’ hand?",
+        "options": [
+          "Spots",
+          "Leprosy",
+          "Blisters",
+          "Boils"
+        ],
+        "answer": "Leprosy",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ brother?",
+        "options": [
+          "Joshua",
+          "Caleb",
+          "Levi",
+          "Aaron"
+        ],
+        "answer": "Aaron",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ second son?",
+        "options": [
+          "Ezra",
+          "Samuel",
+          "Eli",
+          "Eliezer"
+        ],
+        "answer": "Eliezer",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses' water turn into?",
+        "options": [
+          "Honey",
+          "Blood",
+          "Oil",
+          "Milk"
+        ],
+        "answer": "Blood",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did Aaron help Moses?",
+        "options": [
+          "He wrote scrolls",
+          "He guided the sheep",
+          "He cooked food",
+          "He spoke for him"
+        ],
+        "answer": "He spoke for him",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who found baby Moses in the basket?",
+        "options": [
+          "Pharaoh’s daughter",
+          "A shepherd girl",
+          "A servant",
+          "A fisherman"
+        ],
+        "answer": "Pharaoh’s daughter",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses and Aaron tell Pharaoh?",
+        "options": [
+          "Let my people go!",
+          "Set us free!",
+          "We come in peace!",
+          "Stop the slavery!"
+        ],
+        "answer": "Let my people go!",
+        "userAnswer": ""
+      },
+      {
+        "question": "How old was Moses when he died?",
+        "options": [
+          "80",
+          "110",
+          "100",
+          "120"
+        ],
+        "answer": "120",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God turn Moses' staff into?",
+        "options": [
+          "A scroll",
+          "A snake",
+          "A sword",
+          "A torch"
+        ],
+        "answer": "A snake",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses do to the tablets when he saw the idol?",
+        "options": [
+          "He broke them",
+          "He gave them to Aaron",
+          "He lost them",
+          "He hid them"
+        ],
+        "answer": "He broke them",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was the mother of Moses?",
+        "options": [
+          "Jochebed",
+          "Leah",
+          "Sarah",
+          "Hannah"
+        ],
+        "answer": "Jochebed",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": "9e7be90f-1d8c-4069-a30d-848424d949b2",
+    "username": "Ogo",
+    "score": 0,
+    "date": "2025-04-17T16:45:25.299Z",
+    "quizState": [
+      {
+        "question": "How did God lead the Israelites by day?",
+        "options": [
+          "Sunlight",
+          "Torch",
+          "Pillar of cloud",
+          "Wind"
+        ],
+        "answer": "Pillar of cloud",
+        "userAnswer": ""
+      },
+      {
+        "question": "How did God lead the Israelites by night?",
+        "options": [
+          "Moonlight",
+          "Stars",
+          "Pillar of fire",
+          "Lamps"
+        ],
+        "answer": "Pillar of fire",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who spoke to Moses face to face?",
+        "options": [
+          "God",
+          "Aaron",
+          "A prophet",
+          "An angel"
+        ],
+        "answer": "God",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses see on Mount Horeb?",
+        "options": [
+          "A giant stone",
+          "A golden calf",
+          "A burning bush",
+          "An angel"
+        ],
+        "answer": "A burning bush",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was Moses’ father’s name?",
+        "options": [
+          "Nadab",
+          "Amram",
+          "Levi",
+          "Jacob"
+        ],
+        "answer": "Amram",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses strike to get water?",
+        "options": [
+          "A mountain",
+          "A wall",
+          "A tree",
+          "A rock"
+        ],
+        "answer": "A rock",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the final plague?",
+        "options": [
+          "Frogs",
+          "Darkness",
+          "Death of the firstborn",
+          "Flies"
+        ],
+        "answer": "Death of the firstborn",
+        "userAnswer": ""
+      },
+      {
+        "question": "What river was baby Moses placed into?",
+        "options": [
+          "Euphrates",
+          "Jordan",
+          "Tigris",
+          "Nile"
+        ],
+        "answer": "Nile",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God turn Moses' staff into?",
+        "options": [
+          "A scroll",
+          "A snake",
+          "A sword",
+          "A torch"
+        ],
+        "answer": "A snake",
+        "userAnswer": ""
+      },
+      {
+        "question": "How long did Jochebed hide baby Moses?",
+        "options": [
+          "1 year",
+          "1 month",
+          "6 months",
+          "3 months"
+        ],
+        "answer": "3 months",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ brother?",
+        "options": [
+          "Joshua",
+          "Caleb",
+          "Levi",
+          "Aaron"
+        ],
+        "answer": "Aaron",
+        "userAnswer": ""
+      },
+      {
+        "question": "What does the name Moses mean?",
+        "options": [
+          "Saved one",
+          "Gift of God",
+          "Drawn out of water",
+          "Leader"
+        ],
+        "answer": "Drawn out of water",
+        "userAnswer": ""
+      },
+      {
+        "question": "What was the name of Moses’ first son?",
+        "options": [
+          "Benjamin",
+          "Aaron",
+          "Gershom",
+          "Isaac"
+        ],
+        "answer": "Gershom",
+        "userAnswer": ""
+      },
+      {
+        "question": "What animal’s blood saved the Israelites?",
+        "options": [
+          "Lamb",
+          "Bird",
+          "Goat",
+          "Cow"
+        ],
+        "answer": "Lamb",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God say from the burning bush?",
+        "options": [
+          "You are chosen!",
+          "Follow Me!",
+          "Peace be with you",
+          "Moses! Moses!"
+        ],
+        "answer": "Moses! Moses!",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses and Aaron tell Pharaoh?",
+        "options": [
+          "Let my people go!",
+          "Set us free!",
+          "We come in peace!",
+          "Stop the slavery!"
+        ],
+        "answer": "Let my people go!",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did Moses' water turn into?",
+        "options": [
+          "Honey",
+          "Blood",
+          "Oil",
+          "Milk"
+        ],
+        "answer": "Blood",
+        "userAnswer": ""
+      },
+      {
+        "question": "Who was Moses’ sister who watched over him?",
+        "options": [
+          "Esther",
+          "Deborah",
+          "Miriam",
+          "Naomi"
+        ],
+        "answer": "Miriam",
+        "userAnswer": ""
+      },
+      {
+        "question": "What did God feed the Israelites in the desert?",
+        "options": [
+          "Bread from Egypt",
+          "Manna",
+          "Fish",
+          "Corn"
+        ],
+        "answer": "Manna",
+        "userAnswer": ""
+      },
+      {
+        "question": "What excuse did Moses give for not going to Egypt?",
+        "options": [
+          "I’m afraid",
+          "I am too old",
+          "I don’t believe",
+          "I can’t speak well"
+        ],
+        "answer": "I can’t speak well",
+        "userAnswer": ""
+      }
+    ]
   }
 ]

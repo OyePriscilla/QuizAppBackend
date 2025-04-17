@@ -6,62 +6,63 @@ const router = express.Router();
 // Path to quizResults.json
 const resultsFilePath = path.join(__dirname, '../data/quizResults.json');
 
-// GET request to fetch all quiz results for a specific user
+// Utility function to safely read JSON file
+function getResults() {
+  try {
+    if (!fs.existsSync(resultsFilePath)) return [];
+    const data = fs.readFileSync(resultsFilePath, 'utf8');
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    console.error("Error reading results file:", error);
+    return [];
+  }
+}
+
+// ✅ Admin: GET all results
+router.get('/', (req, res) => {
+  const results = getResults();
+  res.json(results);
+});
+
+// ✅ User: GET results by username
 router.get('/:username', (req, res) => {
   const username = req.params.username;
+  const results = getResults();
 
-  // Read the results from the JSON file
-  fs.readFile(resultsFilePath, 'utf8', (err, data) => {
-    if (err) {
-      return res.status(500).json({ message: 'Failed to read the results file.' });
-    }
+  const userResults = results.filter(result => result.username === username);
 
-    let results;
-    try {
-      results = JSON.parse(data);
-    } catch (parseErr) {
-      return res.status(500).json({ message: 'Failed to parse the results file.' });
-    }
+  if (userResults.length === 0) {
+    return res.status(404).json({ message: 'No quiz results found for the user.' });
+  }
 
-    const userResults = results.filter(result => result.username === username);
-
-    if (userResults.length === 0) {
-      return res.status(404).json({ message: 'No quiz results found for the user.' });
-    }
-
-    res.json(userResults);  // Send user results in the response
-  });
+  res.json(userResults);
 });
 
-// POST request to save quiz results
+// ✅ Save new quiz result
 router.post('/save', (req, res) => {
   const newResult = req.body;
+  const results = getResults();
 
-  // Read the current results from the JSON file
-  fs.readFile(resultsFilePath, 'utf8', (err, data) => {
-    if (err) {
-      return res.status(500).json({ message: 'Failed to read the results file.' });
+  results.push(newResult);
+
+  fs.writeFile(resultsFilePath, JSON.stringify(results, null, 2), (writeErr) => {
+    if (writeErr) {
+      return res.status(500).json({ message: 'Failed to save the result.' });
     }
 
-    let results;
-    try {
-      results = JSON.parse(data);
-    } catch (parseErr) {
-      return res.status(500).json({ message: 'Failed to parse the results file.' });
-    }
-
-    // Append the new result to the existing results
-    results.push(newResult);
-
-    // Write the updated results back to the JSON file
-    fs.writeFile(resultsFilePath, JSON.stringify(results, null, 2), (writeErr) => {
-      if (writeErr) {
-        return res.status(500).json({ message: 'Failed to save the result.' });
-      }
-
-      res.status(201).json({ message: 'Quiz result saved successfully.' });
-    });
+    res.status(201).json({ message: 'Quiz result saved successfully.' });
   });
 });
+
+// DELETE result by ID
+router.delete('/:id', (req, res) => {
+  const resultId = req.params.id;
+  const results = getResults();
+  const filteredResults = results.filter((r) => r.id !== resultId);
+
+  fs.writeFileSync(resultsFilePath, JSON.stringify(filteredResults, null, 2));
+  res.status(200).json({ message: 'Result deleted successfully.' });
+});
+
 
 module.exports = router;

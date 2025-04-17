@@ -23,6 +23,9 @@ const dashboardRoutes = require('./routes/dashboardRoutes');
 // Use the dashboard routes
 app.use('/api/dashboard', dashboardRoutes);
 
+const resultsRoutes = require('./routes/dashboardRoutes'); // or ./routes/results if that's the filename
+app.use('/api/results', resultsRoutes);
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });

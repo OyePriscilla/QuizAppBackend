@@ -28,6 +28,12 @@ router.post('/', (req, res) => {
   res.status(201).json({ message: 'Result saved', resultId: newResult.id });
 });
 
+// ✅ New GET route to fetch all results (for admin)
+router.get('/', (req, res) => {
+  const results = getResults();
+  res.json(results);
+});
+
 // GET /api/results/:userId
 router.get('/:userId', (req, res) => {
   const results = getResults();
