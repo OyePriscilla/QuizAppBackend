@@ -1,7 +1,16 @@
-// routes/auth.js
 const express = require('express');
 const router = express.Router();
-const db = require('../firebase');
+const db = require('../firebase'); // Assuming you're using Firestore
+
+const admin = require('firebase-admin');
+const serviceAccount = JSON.parse(process.env.FIREBASE_CONFIG);
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+});
+
+const db = admin.firestore();
+
 
 // Signup
 router.post('/signup', async (req, res) => {

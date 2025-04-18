@@ -1,36 +1,27 @@
-router.get('/', async (req, res) => {
-  const snapshot = await db.collection('results').orderBy('timestamp', 'desc').get();
-  const allResults = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-  res.json(allResults);
-});
+const express = require('express');
+const admin = require('firebase-admin');
+const router = express.Router();
+
+const db = admin.firestore();
 
 const admin = require('firebase-admin');
-
 const serviceAccount = JSON.parse(process.env.FIREBASE_CONFIG);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
-const db = admin.firestore();
 
-// Endpoint to save quiz result
-router.post('/save', async (req, res) => {
-  const { username, quizTitle, score, total } = req.body;
-
+// Endpoint to fetch all quiz results (for admin dashboard)
+router.get('/', async (req, res) => {
   try {
-    // Save the response to Firestore in a collection named "quizResults"
-    await db.collection('quizResults').add({
-      username,
-      quizTitle,
-      score,
-      total,
-      timestamp: admin.firestore.FieldValue.serverTimestamp(),
-    });
-
-    res.status(201).json({ message: 'Quiz result saved successfully' });
+    const snapshot = await db.collection('quizResults').orderBy('timestamp', 'desc').get();
+    const allResults = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    res.json(allResults);
   } catch (error) {
-    console.error('Error saving quiz result:', error);
-    res.status(500).json({ message: 'Failed to save the result' });
+    console.error('Error fetching results:', error);
+    res.status(500).json({ message: 'Failed to fetch results' });
   }
 });
+
+module.exports = router;
