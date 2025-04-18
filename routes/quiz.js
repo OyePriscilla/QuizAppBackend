@@ -1,35 +1,47 @@
+// routes/quiz.js
 const express = require('express');
-const fs = require('fs');
-const path = require('path');
 const router = express.Router();
+const db = require('../firebase');
 
-const resultsFile = path.join(__dirname, '../data/results.json');
+// Save new quiz result
+router.post('/save', async (req, res) => {
+  try {
+    const data = req.body;
+    await db.collection('quizResults').add(data);
+    res.status(201).json({ message: 'Quiz result saved successfully.' });
+  } catch (error) {
+    res.status(500).json({ message: 'Error saving result', error });
+  }
+});
 
-// Ensure the file exists
-if (!fs.existsSync(resultsFile)) {
-  fs.writeFileSync(resultsFile, JSON.stringify([]));
-}
+// GET all results (Admin)
+router.get('/', async (req, res) => {
+  const snapshot = await db.collection('quizResults').get();
+  const results = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  res.json(results);
+});
 
-// Handle POST /api/quiz/results
-router.post('/results', (req, res) => {
-  const { username, score, date } = req.body;
+// GET results by username
+router.get('/:username', async (req, res) => {
+  const { username } = req.params;
+  const snapshot = await db.collection('quizResults').where('username', '==', username).get();
 
-  if (!username || score === undefined) {
-    return res.status(400).json({ message: 'Missing required fields' });
+  if (snapshot.empty) {
+    return res.status(404).json({ message: 'No quiz results found for the user.' });
   }
 
-  const results = JSON.parse(fs.readFileSync(resultsFile));
-  const newResult = {
-    id: Date.now().toString(),
-    username,
-    score,
-    date: date || new Date().toISOString(),
-  };
+  const userResults = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  res.json(userResults);
+});
 
-  results.push(newResult);
-  fs.writeFileSync(resultsFile, JSON.stringify(results, null, 2));
-
-  res.status(201).json({ message: 'Result saved successfully', result: newResult });
+// DELETE result by ID
+router.delete('/:id', async (req, res) => {
+  try {
+    await db.collection('quizResults').doc(req.params.id).delete();
+    res.json({ message: 'Result deleted successfully.' });
+  } catch (err) {
+    res.status(500).json({ message: 'Delete failed', error: err.message });
+  }
 });
 
 module.exports = router;

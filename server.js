@@ -6,25 +6,9 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Existing routes
-const authRoutes = require('./routes/auth');
-
-// ✅ Import quiz routes
-const quizRoutes = require('./routes/quiz');
-
-app.use('/api/auth', authRoutes);
-
-// ✅ Use quiz route
-app.use('/api/quiz', quizRoutes);
-
-// Import routes
-const dashboardRoutes = require('./routes/dashboardRoutes');
-
-// Use the dashboard routes
-app.use('/api/dashboard', dashboardRoutes);
-
-const resultsRoutes = require('./routes/dashboardRoutes'); // or ./routes/results if that's the filename
-app.use('/api/results', resultsRoutes);
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/quiz', require('./routes/quiz'));
+app.use('/api/results', require('./routes/dashboardRoutes'));
 
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);

@@ -1,37 +1,31 @@
+// routes/auth.js
 const express = require('express');
-const fs = require('fs');
-const path = require('path');
 const router = express.Router();
-
-const usersFile = path.join(__dirname, '../data/users.json');
-
-// Helper function
-const getUsers = () => JSON.parse(fs.readFileSync(usersFile));
+const db = require('../firebase');
 
 // Signup
-router.post('/signup', (req, res) => {
+router.post('/signup', async (req, res) => {
   const { username, password } = req.body;
-  const users = getUsers();
 
-  if (users.find(u => u.username === username)) {
+  const userRef = db.collection('users');
+  const existing = await userRef.where('username', '==', username).get();
+
+  if (!existing.empty) {
     return res.status(400).json({ message: 'Username already exists' });
   }
 
-  const newUser = { id: Date.now().toString(), username, password };
-  users.push(newUser);
-  fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
-
+  const newUser = await userRef.add({ username, password });
   res.status(201).json({ message: 'Signup successful', userId: newUser.id });
 });
 
 // Login
-router.post('/login', (req, res) => {
+router.post('/login', async (req, res) => {
   const { username, password } = req.body;
-  const users = getUsers();
+  const users = await db.collection('users').where('username', '==', username).where('password', '==', password).get();
 
-  const user = users.find(u => u.username === username && u.password === password);
-  if (!user) return res.status(401).json({ message: 'Invalid credentials' });
+  if (users.empty) return res.status(401).json({ message: 'Invalid credentials' });
 
+  const user = users.docs[0];
   res.json({ message: 'Login successful', userId: user.id });
 });
 
