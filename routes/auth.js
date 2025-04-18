@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../firebase'); // Assuming you're using Firestore
 
 const admin = require('firebase-admin');
 const serviceAccount = JSON.parse(process.env.FIREBASE_CONFIG);
